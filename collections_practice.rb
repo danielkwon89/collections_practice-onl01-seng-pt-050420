@@ -39,10 +39,7 @@ end
 
 def add_s(array)
   array.each_with_index.map do |word, i|
-    if i == 1
-      word
-    else
-      word += "s"
+    i == 1 ? word : word += "s"
     end
   end
 end
