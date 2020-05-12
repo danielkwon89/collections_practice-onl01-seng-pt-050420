@@ -40,6 +40,5 @@ end
 def add_s(array)
   array.each_with_index.map do |word, i|
     i == 1 ? word : word += "s"
-    end
   end
 end
